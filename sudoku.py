@@ -305,7 +305,7 @@ while board==None:
     field = [0 for i in range(size_of_board)]
     initialize()
     board = DFS(field.copy(),start,100)
-    ans = digging(board.copy(), "hard")
+    ans = digging(board.copy(), "extremely-easy")
     if ans == None:
         board = None
         continue
